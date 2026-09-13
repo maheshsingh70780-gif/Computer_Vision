@@ -3,7 +3,7 @@ import cv2
 img = cv2.imread("input.jpg")
 
 if img is None:
-    print("Error: input.jpg nahi mili!")
+    print("Image not found!")
     exit()
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

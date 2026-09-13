@@ -13,7 +13,7 @@ equalized = cv2.equalizeHist(gray)
 cv2.imwrite("output.png", equalized)
 
 cv2.imshow("Original", gray)
-cv2.imshow("Equalized", equalized)
+cv2.imshow("_Equalization", equalized)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
