@@ -1,6 +1,4 @@
 
-
-
 #NAME = MAHESH
 #Enrollment NO =2402409065 
 #Course = BCA
